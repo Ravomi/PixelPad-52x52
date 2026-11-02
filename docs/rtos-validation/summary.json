@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-14",
+  "firmware_version": "3.3.0",
+  "base_commit": "c5dab155d74da893f26f88391e509033fdf5b2f1",
+  "rtos_reference_commit": "2d6c434b141fb1593811a41954529146f131e090",
+  "build": "PASS",
+  "hardware_flashed": false,
+  "hardware_tested": false,
+  "artifacts": [
+    {
+      "environment": "pixelpad_s3_fm6373c_rtos",
+      "file": ".pio/build/pixelpad_s3_fm6373c_rtos/firmware.bin",
+      "bytes": 2433568,
+      "sha256": "151f8a169be5bff50fb4c477164e01f1efbf56ae266845517748a2d9f45d3d5e"
+    },
+    {
+      "environment": "pixelpad_s3_fm6373c_ble_only",
+      "file": ".pio/build/pixelpad_s3_fm6373c_ble_only/firmware.bin",
+      "bytes": 2363920,
+      "sha256": "c022c9e6e15019def48537f606212a41fe1532a09483195ff55cd0f32d704fe4"
+    }
+  ],
+  "build_size_reports": [
+    "RAM:   [===       ]  25.4% (used 83356 bytes from 327680 bytes)",
+    "Flash: [========  ]  77.3% (used 2433201 bytes from 3145728 bytes)",
+    "RAM:   [===       ]  25.3% (used 83044 bytes from 327680 bytes)",
+    "Flash: [========  ]  75.1% (used 2363557 bytes from 3145728 bytes)"
+  ],
+  "limits": [
+    "Runtime stack/heap headroom and end-to-end latency require target hardware verification.",
+    "Historical hardware records do not validate this RTOS version."
+  ],
+  "host_tests": {
+    "status": "PASS",
+    "log": "host-tests.log",
+    "sanitizers": [
+      "AddressSanitizer",
+      "UndefinedBehaviorSanitizer"
+    ]
+  },
+  "preserved_hardware_sources": [
+    "lib/led/fm6373c_dma.cpp",
+    "lib/led/fm6373c_dma.h",
+    "lib/led/fm6373c_protocol.cpp",
+    "lib/led/fm6373c_protocol.h"
+  ]
+}

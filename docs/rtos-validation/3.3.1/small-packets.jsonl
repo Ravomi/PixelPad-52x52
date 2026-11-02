@@ -1,0 +1,24 @@
+{"chunk": 20, "gap_ms": 0}
+{"before": {"status": "ok", "cmd": "rtos_stats", "input_events": 0, "commands": 1, "input_max_us": 0, "command_max_us": 1745, "render_max_us": 338, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "rx_oversize": 0, "rx_queue_peak": 1, "heap": 68424, "min_heap": 67104, "stack_free": [2416, 9320, 5728, 4840]}}
+{"image": 0, "sent_ms": 185.09, "ack_ms": 1018.74, "verified_ms": 1107.68}
+{"image": 1, "sent_ms": 222.01, "ack_ms": 886.13, "verified_ms": 960.7}
+{"image": 2, "sent_ms": 209.46, "ack_ms": 1184.29, "verified_ms": 1257.65}
+{"image": 3, "sent_ms": 197.03, "ack_ms": 1123.62, "verified_ms": 1185.28}
+{"image": 4, "sent_ms": 205.98, "ack_ms": 1068.28, "verified_ms": 1125.57}
+{"image": 5, "sent_ms": 198.3, "ack_ms": 1079.79, "verified_ms": 1227.72}
+{"image": 6, "sent_ms": 195.0, "ack_ms": 1018.35, "verified_ms": 1078.16}
+{"image": 7, "sent_ms": 182.15, "ack_ms": 1095.83, "verified_ms": 1172.4}
+{"image": 8, "sent_ms": 174.46, "ack_ms": 1138.89, "verified_ms": 1199.63}
+{"image": 9, "sent_ms": 202.26, "ack_ms": 1094.28, "verified_ms": 1169.03}
+{"image": 10, "sent_ms": 158.87, "ack_ms": 974.87, "verified_ms": 1035.0}
+{"image": 11, "sent_ms": 167.27, "ack_ms": 1139.88, "verified_ms": 1216.81}
+{"image": 12, "sent_ms": 184.17, "ack_ms": 1035.79, "verified_ms": 1095.96}
+{"image": 13, "sent_ms": 157.34, "ack_ms": 1095.08, "verified_ms": 1230.34}
+{"image": 14, "sent_ms": 183.5, "ack_ms": 1049.91, "verified_ms": 1110.02}
+{"image": 15, "sent_ms": 190.04, "ack_ms": 975.27, "verified_ms": 1051.92}
+{"image": 16, "sent_ms": 207.33, "ack_ms": 1019.29, "verified_ms": 1079.59}
+{"image": 17, "sent_ms": 213.87, "ack_ms": 1003.59, "verified_ms": 1063.61}
+{"image": 18, "sent_ms": 220.86, "ack_ms": 975.46, "verified_ms": 1033.72}
+{"image": 19, "sent_ms": 242.95, "ack_ms": 1049.56, "verified_ms": 1155.39}
+{"after": {"status": "ok", "cmd": "rtos_stats", "input_events": 0, "commands": 84, "input_max_us": 0, "command_max_us": 2017, "render_max_us": 12734, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "rx_oversize": 0, "rx_queue_peak": 11, "heap": 67972, "min_heap": 60736, "stack_free": [2320, 8840, 5472, 3432]}}
+{"result": "PASS", "verification": "DMA image and patch", "n": 20, "median_ms": 1049.731, "p95_ms": 1139.877, "max_ms": 1184.289}

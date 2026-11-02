@@ -1,0 +1,7 @@
+PASS transfer_gate
+PASS frame_publication
+FM6373C protocol: commands, V1.2 registers, chain mapping, descriptor boundaries, scan, RGB and brightness PASS
+PASS fm6373c_protocol
+PASS protocol
+PASS brightness
+PASS life_redraw

@@ -1,0 +1,6 @@
+{"chunk": 20, "gap_ms": 15.0}
+{"before": {"status": "ok", "cmd": "rtos_stats", "input_events": 0, "commands": 85, "input_max_us": 0, "command_max_us": 2017, "render_max_us": 12734, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "rx_oversize": 0, "rx_queue_peak": 11, "heap": 67848, "min_heap": 60736, "stack_free": [2320, 8696, 5472, 3432]}}
+{"image": 0, "sent_ms": 6748.18, "ack_ms": 6777.8, "verified_ms": 6837.63}
+{"image": 1, "sent_ms": 6713.17, "ack_ms": 6734.66, "verified_ms": 6795.92}
+{"after": {"status": "ok", "cmd": "rtos_stats", "input_events": 0, "commands": 94, "input_max_us": 0, "command_max_us": 2017, "render_max_us": 12734, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "rx_oversize": 0, "rx_queue_peak": 11, "heap": 67960, "min_heap": 60736, "stack_free": [2320, 8696, 5472, 3432]}}
+{"result": "PASS", "verification": "DMA image and patch", "n": 2, "median_ms": 6756.233, "p95_ms": 6777.803, "max_ms": 6777.803}

@@ -1,0 +1,86 @@
+{
+  "version": "3.3.1",
+  "date": "2026-09-14",
+  "branch": "firmware/52x52-fm6373c",
+  "base_commit": "c1816440e01bc9c053daa07695c7d9ed04825ef4",
+  "baseline": {
+    "small_packet_bytes": 20,
+    "frames": 2,
+    "median_ms": 2945.836,
+    "max_ms": 3059.379,
+    "separate_latency_regression_ms": 3102.0,
+    "slow_transfer": {
+      "packet_bytes": 20,
+      "gap_ms": 15,
+      "seconds": 6.686,
+      "response": "recv_fail",
+      "later_commands": "ignored while BLE remained connected"
+    }
+  },
+  "hardware_results": {
+    "small-packets.jsonl": {
+      "chunk": 20,
+      "gap_ms": 0,
+      "result": "PASS",
+      "verification": "DMA image and patch",
+      "n": 20,
+      "median_ms": 1049.731,
+      "p95_ms": 1139.877,
+      "max_ms": 1184.289
+    },
+    "slow-transfer.jsonl": {
+      "chunk": 20,
+      "gap_ms": 15.0,
+      "result": "PASS",
+      "verification": "DMA image and patch",
+      "n": 2,
+      "median_ms": 6756.233,
+      "p95_ms": 6777.803,
+      "max_ms": 6777.803
+    },
+    "large-packets.jsonl": {
+      "chunk": 480,
+      "gap_ms": 0,
+      "result": "PASS",
+      "verification": "DMA image and patch",
+      "n": 20,
+      "median_ms": 194.124,
+      "p95_ms": 224.68,
+      "max_ms": 239.945
+    },
+    "small-packets-repeat.jsonl": {
+      "chunk": 20,
+      "gap_ms": 0,
+      "result": "PASS",
+      "verification": "DMA image and patch",
+      "n": 20,
+      "median_ms": 734.873,
+      "p95_ms": 795.343,
+      "max_ms": 809.659
+    }
+  },
+  "host_tests": "7 groups, Clang ASan/UBSan PASS",
+  "flash": {
+    "pio_upload": "All bytes written, serial I/O error before final digest check",
+    "recovery": "esptool verify_flash at 115200: all four regions digest matched, then reset"
+  },
+  "limitations": [
+    "Linux BLE client reproduces 20-byte packet behavior; no direct HarmonyOS phone trace or final phone retest",
+    "shown_hash verifies the RGB snapshot handed to the active DMA bank, not optical panel output",
+    "No physical button or full OTA regression performed in this patch"
+  ],
+  "builds": {
+    "pixelpad_s3_fm6373c_rtos": {
+      "bytes": 2434496,
+      "sha256": "71c965c0ba8d418f01b604dc58dd49c51a09feb9e37e5d72558bb909caf29897",
+      "ram_used": 83364,
+      "flash_used": 2434129
+    },
+    "pixelpad_s3_fm6373c_ble_only": {
+      "bytes": 2364832,
+      "sha256": "72d1ad39ae325716e75767762937f37dc65a9c078133f4318e3490b05942c378",
+      "ram_used": 83052,
+      "flash_used": 2364473
+    }
+  }
+}
