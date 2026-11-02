@@ -1,0 +1,13 @@
+{"att_payload_bytes": 20}
+{"completed": 10, "n": 10, "median_ms": 2762.216, "p95_ms": 3100.342, "max_ms": 3100.342}
+{"completed": 20, "n": 20, "median_ms": 2762.216, "p95_ms": 3100.342, "max_ms": 3144.781}
+{"completed": 30, "n": 30, "median_ms": 2784.63, "p95_ms": 3100.342, "max_ms": 3144.781}
+{"completed": 40, "n": 40, "median_ms": 2784.501, "p95_ms": 3100.342, "max_ms": 3144.781}
+{"completed": 50, "n": 50, "median_ms": 2740.161, "p95_ms": 3100.342, "max_ms": 3144.781}
+{
+  "mode": "image",
+  "n": 50,
+  "median_ms": 2740.161,
+  "p95_ms": 3100.342,
+  "max_ms": 3144.781
+}

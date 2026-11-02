@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "tools/ble_display_test.py", line 73, in <module>
+    main()
+    ~~~~^^
+  File "tools/ble_display_test.py", line 69, in main
+    asyncio.run(run(options))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "tools/ble_display_test.py", line 51, in run
+    await replies.wait("recv")
+  File "tools/ble_benchmark.py", line 50, in wait
+    return await asyncio.wait_for(match(), timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/asyncio/tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "tools/ble_benchmark.py", line 47, in match
+    raise RuntimeError(message)
+RuntimeError: {'status': 'err', 'cmd': 'recv', 'reason': 'recv_fail'}

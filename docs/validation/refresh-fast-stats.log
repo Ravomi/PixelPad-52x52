@@ -1,0 +1,11 @@
+{"att_payload_bytes": 244}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 0, "commands": 2, "input_max_us": 0, "command_max_us": 1344, "render_max_us": 1431, "rx_overflows": 1, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 67196, "min_heap": 57796, "stack_free": [2340, 9340, 5252, 3500]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 0, "commands": 3, "input_max_us": 0, "command_max_us": 1362, "render_max_us": 1431, "rx_overflows": 1, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 67004, "min_heap": 57796, "stack_free": [2340, 8716, 5252, 3500]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 0, "commands": 4, "input_max_us": 0, "command_max_us": 1362, "render_max_us": 1431, "rx_overflows": 1, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 66992, "min_heap": 57796, "stack_free": [2340, 8716, 5252, 3500]}
+{
+  "mode": "stats",
+  "n": 3,
+  "median_ms": 91.056,
+  "p95_ms": 129.301,
+  "max_ms": 129.301
+}

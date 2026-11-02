@@ -1,0 +1,32 @@
+ATTEMPT existing_download
+esptool.py v4.11.0
+Serial port /dev/ttyUSB0
+WARNING: Pre-connection option "no_reset" was selected. Connection may fail if the chip is not in bootloader or flasher stub mode.
+Connecting........
+
+A fatal error occurred: Failed to connect to Espressif device: No serial data received.
+For troubleshooting steps visit: https://docs.espressif.com/projects/esptool/en/latest/troubleshooting.html
+ATTEMPT long_atomic_reset
+esptool.py v4.11.0
+Loaded custom configuration from /tmp/pixelpad-force-boot-dokthti2/esptool.cfg (set with ESPTOOL_CFGFILE)
+Serial port /dev/ttyUSB0
+Connecting........
+
+A fatal error occurred: Failed to connect to Espressif device: Serial data stream stopped: Possible serial noise or corruption.
+For troubleshooting steps visit: https://docs.espressif.com/projects/esptool/en/latest/troubleshooting.html
+ATTEMPT hold_boot_during_sync
+esptool.py v4.11.0
+Loaded custom configuration from /tmp/pixelpad-force-boot-dokthti2/esptool.cfg (set with ESPTOOL_CFGFILE)
+Serial port /dev/ttyUSB0
+Connecting........
+
+A fatal error occurred: Failed to connect to Espressif device: Invalid head of packet (0x00): Possible serial noise or corruption.
+For troubleshooting steps visit: https://docs.espressif.com/projects/esptool/en/latest/troubleshooting.html
+ATTEMPT slow_sync
+esptool.py v4.11.0
+Loaded custom configuration from /tmp/pixelpad-force-boot-dokthti2/esptool.cfg (set with ESPTOOL_CFGFILE)
+Serial port /dev/ttyUSB0
+Connecting........
+
+A fatal error occurred: Failed to connect to Espressif device: Serial data stream stopped: Possible serial noise or corruption.
+For troubleshooting steps visit: https://docs.espressif.com/projects/esptool/en/latest/troubleshooting.html

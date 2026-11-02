@@ -1,0 +1,434 @@
+********************************************************************************
+Obsolete PIO Core v6.1.19 is used (previous was 6.2.0)
+Please remove multiple PIO Cores from a system:
+https://docs.platformio.org/en/latest/core/installation/troubleshooting.html
+********************************************************************************
+Processing pixelpad_s3_rtos (platform: espressif32@6.13.0; board: 4d_systems_esp32s3_gen4_r8n16; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/4d_systems_esp32s3_gen4_r8n16.html
+PLATFORM: Espressif 32 (6.13.0) > 4D Systems GEN4-ESP32 16MB (ESP32S3-R8N16)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 16MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.0 (2.0.17) 
+ - tool-esptoolpy @ 2.41100.0 (4.11.0) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 53 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- ArduinoJson @ 7.4.3
+|-- OneButton @ 2.6.2
+|-- ESP32Encoder @ 0.12.0
+|-- ElegantOTA @ 3.1.7
+|-- ESPAsyncWebServer @ 3.11.1
+|-- AsyncTCP @ 3.4.10
+|-- ESP32 HUB75 LED MATRIX PANEL DMA Display @ 3.0.15
+|-- Adafruit GFX Library @ 1.12.6
+|-- Adafruit BusIO @ 1.17.4
+|-- FastLED @ 3.10.3
+|-- Bluetooth
+|-- game
+|-- OTA
+|-- runtime
+|-- app
+|-- button
+|-- led
+Building in release mode
+Compiling .pio/build/pixelpad_s3_rtos/src/main.cpp.o
+Building .pio/build/pixelpad_s3_rtos/bootloader.bin
+Generating partitions .pio/build/pixelpad_s3_rtos/partitions.bin
+Compiling .pio/build/pixelpad_s3_rtos/lib296/OneButton/OneButton.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib296/OneButton/OneButtonTiny.cpp.o
+esptool.py v4.11.0
+Creating esp32s3 image...
+Merged 1 ELF section
+Successfully created esp32s3 image.
+Compiling .pio/build/pixelpad_s3_rtos/libd1f/ESP32Encoder/ESP32Encoder.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libd1f/ESP32Encoder/InterruptEncoder.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib296/libOneButton.a
+Indexing .pio/build/pixelpad_s3_rtos/lib296/libOneButton.a
+Compiling .pio/build/pixelpad_s3_rtos/lib0cb/AsyncTCP@3.4.10/AsyncTCP.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libbaa/FS/FS.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libbaa/FS/vfs_api.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/libd1f/libESP32Encoder.a
+Indexing .pio/build/pixelpad_s3_rtos/libd1f/libESP32Encoder.a
+Compiling .pio/build/pixelpad_s3_rtos/libd56/WiFi/WiFi.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libd56/WiFi/WiFiAP.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libd56/WiFi/WiFiClient.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/libbaa/libFS.a
+Indexing .pio/build/pixelpad_s3_rtos/libbaa/libFS.a
+Archiving .pio/build/pixelpad_s3_rtos/lib0cb/libAsyncTCP@3.4.10.a
+Indexing .pio/build/pixelpad_s3_rtos/lib0cb/libAsyncTCP@3.4.10.a
+Compiling .pio/build/pixelpad_s3_rtos/libd56/WiFi/WiFiGeneric.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libd56/WiFi/WiFiMulti.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libd56/WiFi/WiFiSTA.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libd56/WiFi/WiFiScan.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libd56/WiFi/WiFiServer.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libd56/WiFi/WiFiUdp.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/AsyncEventSource.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/AsyncJson.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/AsyncWebHeader.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/libd56/libWiFi.a
+Indexing .pio/build/pixelpad_s3_rtos/libd56/libWiFi.a
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/AsyncWebServerRequest.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/AsyncWebSocket.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/BackPort_SHA1Builder.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/ChunkPrint.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/Middleware.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/WebAuthentication.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/WebHandlers.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/WebRequest.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/WebResponses.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdb2/ESPAsyncWebServer@3.11.1/WebServer.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libbf0/LittleFS/LittleFS.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/libbf0/libLittleFS.a
+Indexing .pio/build/pixelpad_s3_rtos/libbf0/libLittleFS.a
+Compiling .pio/build/pixelpad_s3_rtos/libe89/Update/HttpsOTAUpdate.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libe89/Update/Updater.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libae0/WebServer/Parsing.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libae0/WebServer/WebServer.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/libe89/libUpdate.a
+Indexing .pio/build/pixelpad_s3_rtos/libe89/libUpdate.a
+Archiving .pio/build/pixelpad_s3_rtos/libdb2/libESPAsyncWebServer@3.11.1.a
+Compiling .pio/build/pixelpad_s3_rtos/libae0/WebServer/detail/mimetable.cpp.o
+Indexing .pio/build/pixelpad_s3_rtos/libdb2/libESPAsyncWebServer@3.11.1.a
+Compiling .pio/build/pixelpad_s3_rtos/lib753/ElegantOTA/ElegantOTA.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib753/ElegantOTA/elop.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib894/Wire/Wire.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib75d/SPI/SPI.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/libae0/libWebServer.a
+Indexing .pio/build/pixelpad_s3_rtos/libae0/libWebServer.a
+Compiling .pio/build/pixelpad_s3_rtos/lib4e4/Adafruit BusIO/Adafruit_BusIO_Register.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib75d/libSPI.a
+Indexing .pio/build/pixelpad_s3_rtos/lib75d/libSPI.a
+Archiving .pio/build/pixelpad_s3_rtos/lib894/libWire.a
+Compiling .pio/build/pixelpad_s3_rtos/lib4e4/Adafruit BusIO/Adafruit_GenericDevice.cpp.o
+Indexing .pio/build/pixelpad_s3_rtos/lib894/libWire.a
+Compiling .pio/build/pixelpad_s3_rtos/lib4e4/Adafruit BusIO/Adafruit_I2CDevice.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib753/libElegantOTA.a
+Indexing .pio/build/pixelpad_s3_rtos/lib753/libElegantOTA.a
+Compiling .pio/build/pixelpad_s3_rtos/lib4e4/Adafruit BusIO/Adafruit_SPIDevice.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6c1/Adafruit GFX Library/Adafruit_GFX.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6c1/Adafruit GFX Library/Adafruit_GrayOLED.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6c1/Adafruit GFX Library/Adafruit_SPITFT.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib4e4/libAdafruit BusIO.a
+Indexing .pio/build/pixelpad_s3_rtos/lib4e4/libAdafruit BusIO.a
+Compiling .pio/build/pixelpad_s3_rtos/lib6c1/Adafruit GFX Library/glcdfont.c.o
+Compiling .pio/build/pixelpad_s3_rtos/lib3b0/ESP32 HUB75 LED MATRIX PANEL DMA Display/ESP32-HUB75-MatrixPanel-I2S-DMA.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib3b0/ESP32 HUB75 LED MATRIX PANEL DMA Display/ESP32-HUB75-MatrixPanel-leddrivers.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib3b0/ESP32 HUB75 LED MATRIX PANEL DMA Display/platforms/esp32/esp32_i2s_parallel_dma.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib3b0/ESP32 HUB75 LED MATRIX PANEL DMA Display/platforms/esp32s3/gdma_lcd_parallel16.cpp.o
+.pio/libdeps/pixelpad_s3_rtos/ESP32 HUB75 LED MATRIX PANEL DMA Display/src/platforms/esp32s3/gdma_lcd_parallel16.cpp:21:19: note: #pragma message: Compiling for ESP32-S3
+   #pragma message "Compiling for ESP32-S3"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~
+Compiling .pio/build/pixelpad_s3_rtos/lib6ca/I2S/I2S.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib6c1/libAdafruit GFX Library.a
+Indexing .pio/build/pixelpad_s3_rtos/lib6c1/libAdafruit GFX Library.a
+Compiling .pio/build/pixelpad_s3_rtos/lib628/SD/SD.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib628/SD/sd_diskio.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib3b0/libESP32 HUB75 LED MATRIX PANEL DMA Display.a
+Indexing .pio/build/pixelpad_s3_rtos/lib3b0/libESP32 HUB75 LED MATRIX PANEL DMA Display.a
+Compiling .pio/build/pixelpad_s3_rtos/lib628/SD/sd_diskio_crc.c.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/ExFatLib/ExFatDbg.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/ExFatLib/ExFatFile.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib6ca/libI2S.a
+Indexing .pio/build/pixelpad_s3_rtos/lib6ca/libI2S.a
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/ExFatLib/ExFatFilePrint.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib628/libSD.a
+Indexing .pio/build/pixelpad_s3_rtos/lib628/libSD.a
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/ExFatLib/ExFatFileWrite.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/ExFatLib/ExFatFormatter.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/ExFatLib/ExFatName.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/ExFatLib/ExFatPartition.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/ExFatLib/ExFatVolume.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FatLib/FatDbg.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FatLib/FatFile.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FatLib/FatFileLFN.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FatLib/FatFilePrint.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FatLib/FatFileSFN.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FatLib/FatFormatter.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FatLib/FatName.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FatLib/FatPartition.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FatLib/FatVolume.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FreeStack.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FsLib/FsFile.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FsLib/FsNew.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/FsLib/FsVolume.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/MinimumSerial.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/SdCard/PioSdio/PioSdioCard.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/SdCard/SdCardInfo.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/SdCard/SdSpiCard/SdSpiCard.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/SdCard/SdSpiCard/SpiDriver/SdSpiChipSelect.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/SdCard/SdSpiCard/SpiDriver/SdSpiDue.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/SdCard/SdSpiCard/SpiDriver/SdSpiSTM32Core.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/SdCard/SdSpiCard/SpiDriver/SdSpiTeensy3.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/SdCard/TeensySdio/TeensySdio.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/common/FmtNumber.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/common/FsCache.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/common/FsDateTime.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/common/FsName.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/common/FsStructs.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/common/FsUtf.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/common/PrintBasic.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/common/upcase.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/iostream/StdioStream.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/iostream/StreamBaseClass.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/iostream/istream.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib636/SdFat/iostream/ostream.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/FastLED.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/bitswap.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/cled_controller.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib636/libSdFat.a
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/colorpalettes.cpp.o
+Indexing .pio/build/pixelpad_s3_rtos/lib636/libSdFat.a
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/crgb.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/allocator.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/async.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/audio.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/audio_input.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/audio_reactive.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/bitset.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/blur.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/bytestreammemory.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/colorutils.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/corkscrew.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/crgb_hsv16.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/downscale.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/ease.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/engine_events.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/fetch.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/fft.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/fft_impl.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/file_system.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/fill.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/gamma.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/gradient.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/hsv16.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/id_tracker.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/io.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/istream.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/json.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/leds.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/line_simplification.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/noise_woryley.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/ostream.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/ptr.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/random.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/raster_sparse.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/rectangular_draw_buffer.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/referent.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/rgbw.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/screenmap.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/sin32.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/splat.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/str.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/str_ui.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/strstream.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/stub_main.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/task.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/tile2x2.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/time.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/time_alpha.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/transform.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/type_traits.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/ui.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/upscale.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/wave_simulation.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/wave_simulation_real.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/xmap.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/xymap.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/xypath.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/xypath_impls.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fl/xypath_renderer.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/2d/blend.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/2d/luminova.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/2d/noisepalette.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/2d/scale_up.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/2d/wave.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/detail/fx_layer.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/frame.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/fx_engine.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/time.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/video.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/video/frame_interpolator.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/video/frame_tracker.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/video/pixel_stream.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/fx/video/video_impl.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/hsv2rgb.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/lib8tion.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/noise.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/adafruit/clockless.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/arm/k20/clockless_objectfled.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/arm/mgm240/fastpin_arm_mgm240.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/compile_test.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/esp/32/audio/audio.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/esp/32/audio/sound_util.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/esp/32/clockless_i2s_esp32s3.cpp.o
+.pio/libdeps/pixelpad_s3_rtos/FastLED/src/platforms/esp/32/clockless_i2s_esp32s3.cpp:10:2: warning: #warning "esp_memory_utils.h is not available, are you on esp-idf 4? The parallel clockless i2s driver will not be available" [-Wcpp]
+ #warning "esp_memory_utils.h is not available, are you on esp-idf 4? The parallel clockless i2s driver will not be available"
+  ^~~~~~~
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/esp/32/i2s/i2s_esp32dev.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/esp/32/rmt_4/idf4_rmt.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/esp/32/rmt_4/idf4_rmt_impl.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/esp/32/rmt_5/idf5_rmt.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/esp/32/rmt_5/strip_rmt.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/esp/32/spi_ws2812/strip_spi.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/stub/Arduino.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/stub/led_sysdefs_stub.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/stub/time_stub.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/active_strip_data.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/engine_listener.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/entry_point.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/fastspi_wasm.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/fs_wasm.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/js.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/js_bindings.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/js_fetch.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/timer.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/platforms/wasm/ui.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/power_mgt.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/sensors/button.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/sensors/digital_pin.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/sensors/pir.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/simplex.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/third_party/cq_kernel/cq_kernel.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/third_party/cq_kernel/kiss_fft.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/third_party/cq_kernel/kiss_fftr.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/third_party/espressif/led_strip/src/led_strip_api.c.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/third_party/espressif/led_strip/src/led_strip_rmt_dev.c.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/third_party/espressif/led_strip/src/led_strip_rmt_encoder.c.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/third_party/espressif/led_strip/src/led_strip_spi_dev.c.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/third_party/object_fled/src/OjectFLED.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/transpose8x1_noinline.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib8e3/FastLED/wiring.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLE2902.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLE2904.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEAddress.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEAdvertisedDevice.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEAdvertising.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib8e3/libFastLED.a
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEBeacon.cpp.o
+Indexing .pio/build/pixelpad_s3_rtos/lib8e3/libFastLED.a
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLECharacteristic.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLECharacteristicMap.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEClient.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEDescriptor.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEDescriptorMap.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEDevice.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEEddystoneTLM.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEEddystoneURL.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEExceptions.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEHIDDevice.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLERemoteCharacteristic.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLERemoteDescriptor.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLERemoteService.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEScan.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLESecurity.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEServer.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEService.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEServiceMap.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEUUID.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEUtils.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/BLEValue.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/FreeRTOS.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib6d4/BLE/GeneralUtils.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libbc2/Preferences/Preferences.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib4a2/OTA/BleOTA.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib4a2/OTA/OTA.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib6d4/libBLE.a
+Archiving .pio/build/pixelpad_s3_rtos/libbc2/libPreferences.a
+Indexing .pio/build/pixelpad_s3_rtos/lib6d4/libBLE.a
+Indexing .pio/build/pixelpad_s3_rtos/libbc2/libPreferences.a
+Compiling .pio/build/pixelpad_s3_rtos/lib320/Bluetooth/Bluetooth.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libf70/led/led.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib7f4/game/GameOfLife.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/libf70/libled.a
+Indexing .pio/build/pixelpad_s3_rtos/libf70/libled.a
+Compiling .pio/build/pixelpad_s3_rtos/lib7f4/game/Pacman.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib320/libBluetooth.a
+Indexing .pio/build/pixelpad_s3_rtos/lib320/libBluetooth.a
+Compiling .pio/build/pixelpad_s3_rtos/lib7f4/game/SandTetris.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/lib767/app/app.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib4a2/libOTA.a
+Indexing .pio/build/pixelpad_s3_rtos/lib4a2/libOTA.a
+Compiling .pio/build/pixelpad_s3_rtos/libc0f/button/button.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/libdbd/runtime/Runtime.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib7f4/libgame.a
+Indexing .pio/build/pixelpad_s3_rtos/lib7f4/libgame.a
+Compiling .pio/build/pixelpad_s3_rtos/libdbd/runtime/StandbyStore.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/libc0f/libbutton.a
+Indexing .pio/build/pixelpad_s3_rtos/libc0f/libbutton.a
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/Esp.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/FirmwareMSC.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/FunctionalInterrupt.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/HWCDC.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/IPAddress.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/IPv6Address.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/MD5Builder.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/lib767/libapp.a
+Indexing .pio/build/pixelpad_s3_rtos/lib767/libapp.a
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/Print.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/Stream.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/StreamString.cpp.o
+Archiving .pio/build/pixelpad_s3_rtos/libdbd/libruntime.a
+Indexing .pio/build/pixelpad_s3_rtos/libdbd/libruntime.a
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/Tone.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/USB.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/USBCDC.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/USBMSC.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/WMath.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/WString.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/base64.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/cbuf.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-adc.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-bt.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-cpu.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-dac.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-gpio.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-i2c-slave.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-i2c.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-ledc.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-matrix.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-misc.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-psram.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-rgb-led.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-rmt.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-sigmadelta.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-spi.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-time.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-timer.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-tinyusb.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-touch.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/esp32-hal-uart.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/firmware_msc_fat.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/libb64/cdecode.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/libb64/cencode.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/main.cpp.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/stdlib_noniso.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/wiring_pulse.c.o
+Compiling .pio/build/pixelpad_s3_rtos/FrameworkArduino/wiring_shift.c.o
+Archiving .pio/build/pixelpad_s3_rtos/libFrameworkArduino.a
+Indexing .pio/build/pixelpad_s3_rtos/libFrameworkArduino.a
+Linking .pio/build/pixelpad_s3_rtos/firmware.elf
+Retrieving maximum program size .pio/build/pixelpad_s3_rtos/firmware.elf
+Checking size .pio/build/pixelpad_s3_rtos/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [===       ]  25.4% (used 83388 bytes from 327680 bytes)
+Flash: [========  ]  77.6% (used 2440061 bytes from 3145728 bytes)
+Building .pio/build/pixelpad_s3_rtos/firmware.bin
+esptool.py v4.11.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+========================= [SUCCESS] Took 39.13 seconds =========================
+
+Environment       Status    Duration
+----------------  --------  ------------
+pixelpad_s3_rtos  SUCCESS   00:00:39.132
+========================= 1 succeeded in 00:00:39.132 =========================

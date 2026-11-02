@@ -1,0 +1,18 @@
+{
+  "bootloader.bin": {
+    "size": 15104,
+    "sha256": "2a71d69b471e20c2bac7fb469f3c6a807b3ebee780e348e5889db0da849ca363"
+  },
+  "partitions.bin": {
+    "size": 3072,
+    "sha256": "a48797f2d4f821595c8e8fa1b091b4143f3385187f8fb5ad49fa1b0dfb781f37"
+  },
+  "firmware.bin": {
+    "size": 2439216,
+    "sha256": "80799683a341c3009f5b2247aa4759546a8cab5e7f72a0b358166aeaa3c07e57"
+  },
+  "firmware.elf": {
+    "size": 34081492,
+    "sha256": "43cc6f7e8b8526514c49cc20f64cc02abb127f2094e8ade9e095f7700e3078a1"
+  }
+}

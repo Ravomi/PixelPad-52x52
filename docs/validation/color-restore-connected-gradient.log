@@ -1,0 +1,5 @@
+{"att_payload_bytes": 244}
+{"sent_bytes": 8112, "send_seconds": 0.026}
+{"status": "ok", "cmd": "display_stats", "clock_hz": 16000000, "depth_bits": 8, "double_buffer": true, "scan_hz_est": 303, "presented": 104, "pixel_writes": 4910, "present_max_us": 5101, "uptime_ms": 42544}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 0, "commands": 4, "input_max_us": 0, "command_max_us": 407, "render_max_us": 6986, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "rx_oversize": 0, "rx_queue_peak": 15, "heap": 39672, "min_heap": 33984, "stack_free": [2412, 8836, 5724, 3736]}
+Showing gradient, brightness=10%; scan_hz_est is not a measurement.

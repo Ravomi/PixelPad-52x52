@@ -1,0 +1,61 @@
+{
+  "measured": false,
+  "driver_version": "3.0.15",
+  "profiles": [
+    {
+      "profile": "legacy_3.2.3",
+      "clock_hz": 10000000,
+      "bits_per_channel": 8,
+      "double_buffer": false,
+      "transition_bit": 1,
+      "driver_scan_hz_est": 83,
+      "scan_hz_est": 104.175,
+      "dma_bytes_est": 41600,
+      "scan_ratio_est": 1.0
+    },
+    {
+      "profile": "pixelpad_s3_rtos",
+      "clock_hz": 16000000,
+      "bits_per_channel": 4,
+      "double_buffer": true,
+      "transition_bit": 0,
+      "driver_scan_hz_est": 1075,
+      "scan_hz_est": 1075.847,
+      "dma_bytes_est": 26624,
+      "scan_ratio_est": 10.327
+    },
+    {
+      "profile": "pixelpad_s3_ble_only",
+      "clock_hz": 16000000,
+      "bits_per_channel": 4,
+      "double_buffer": true,
+      "transition_bit": 0,
+      "driver_scan_hz_est": 1075,
+      "scan_hz_est": 1075.847,
+      "dma_bytes_est": 26624,
+      "scan_ratio_est": 10.327
+    },
+    {
+      "profile": "pixelpad_s3_refresh_safe",
+      "clock_hz": 10000000,
+      "bits_per_channel": 4,
+      "double_buffer": true,
+      "transition_bit": 0,
+      "driver_scan_hz_est": 672,
+      "scan_hz_est": 672.405,
+      "dma_bytes_est": 26624,
+      "scan_ratio_est": 6.455
+    },
+    {
+      "profile": "pixelpad_s3_color",
+      "clock_hz": 10000000,
+      "bits_per_channel": 8,
+      "double_buffer": false,
+      "transition_bit": 1,
+      "driver_scan_hz_est": 104,
+      "scan_hz_est": 104.175,
+      "dma_bytes_est": 41600,
+      "scan_ratio_est": 1.0
+    }
+  ]
+}

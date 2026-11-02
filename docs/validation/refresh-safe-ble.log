@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "tools/ble_display_test.py", line 73, in <module>
+    main()
+    ~~~~^^
+  File "tools/ble_display_test.py", line 69, in main
+    asyncio.run(run(options))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "tools/ble_display_test.py", line 35, in run
+    async with BleakClient(options.address) as client:
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "~/.local/lib/python3.14/site-packages/bleak/__init__.py", line 638, in __aenter__
+    await self.connect()
+  File "~/.local/lib/python3.14/site-packages/bleak/__init__.py", line 660, in connect
+    await self._backend.connect(self._pair_before_connect, **kwargs)
+  File "~/.local/lib/python3.14/site-packages/bleak/backends/bluezdbus/client.py", line 145, in connect
+    raise BleakDeviceNotFoundError(
+        self.address, f"Device with address {self.address} was not found."
+    )
+bleak.exc.BleakDeviceNotFoundError: Device with address AA:BB:CC:DD:EE:01 was not found.

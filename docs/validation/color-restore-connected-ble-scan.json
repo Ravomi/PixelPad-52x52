@@ -1,0 +1,10 @@
+[
+  {
+    "address": "AA:BB:CC:DD:EE:01",
+    "name": "PixelPad-XXXX",
+    "service_uuids": [
+      "7da35d3c-ad91-41ba-8a6b-d375cc1116f4"
+    ],
+    "rssi": -63
+  }
+]

@@ -1,0 +1,176 @@
+********************************************************************************
+Obsolete PIO Core v6.1.19 is used (previous was 6.2.0)
+Please remove multiple PIO Cores from a system:
+https://docs.platformio.org/en/latest/core/installation/troubleshooting.html
+********************************************************************************
+Processing pixelpad_s3_refresh_safe (platform: espressif32@6.13.0; board: 4d_systems_esp32s3_gen4_r8n16; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/4d_systems_esp32s3_gen4_r8n16.html
+PLATFORM: Espressif 32 (6.13.0) > 4D Systems GEN4-ESP32 16MB (ESP32S3-R8N16)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 16MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.0 (2.0.17) 
+ - tool-esptoolpy @ 2.41100.0 (4.11.0) 
+ - tool-mkfatfs @ 2.0.1 
+ - tool-mklittlefs @ 1.203.210628 (2.3) 
+ - tool-mkspiffs @ 2.230.0 (2.30) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 53 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- ArduinoJson @ 7.4.3
+|-- OneButton @ 2.6.2
+|-- ESP32Encoder @ 0.12.0
+|-- ElegantOTA @ 3.1.7
+|-- ESPAsyncWebServer @ 3.11.1
+|-- AsyncTCP @ 3.4.10
+|-- ESP32 HUB75 LED MATRIX PANEL DMA Display @ 3.0.15
+|-- Adafruit GFX Library @ 1.12.6
+|-- Adafruit BusIO @ 1.17.4
+|-- FastLED @ 3.10.3
+|-- Bluetooth
+|-- game
+|-- OTA
+|-- runtime
+|-- app
+|-- button
+|-- led
+Building in release mode
+Retrieving maximum program size .pio/build/pixelpad_s3_refresh_safe/firmware.elf
+Checking size .pio/build/pixelpad_s3_refresh_safe/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [===       ]  28.1% (used 92180 bytes from 327680 bytes)
+Flash: [========  ]  77.8% (used 2448609 bytes from 3145728 bytes)
+Configuring upload protocol...
+AVAILABLE: cmsis-dap, esp-bridge, esp-builtin, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
+CURRENT: upload_protocol = esptool
+Looking for upload port...
+Using manually specified: /dev/ttyUSB0
+Uploading .pio/build/pixelpad_s3_refresh_safe/firmware.bin
+esptool.py v4.11.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: AA:BB:CC:DD:EE:00
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00003fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Flash will be erased from 0x00010000 to 0x00265fff...
+SHA digest in image updated
+Compressed 15104 bytes to 10429...
+Writing at 0x00000000... (100 %)
+Wrote 15104 bytes (10429 compressed) at 0x00000000 in 0.3 seconds (effective 363.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 128...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (128 compressed) at 0x00008000 in 0.0 seconds (effective 919.8 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 47...
+Writing at 0x0000e000... (100 %)
+Wrote 8192 bytes (47 compressed) at 0x0000e000 in 0.1 seconds (effective 1261.2 kbit/s)...
+Hash of data verified.
+Compressed 2448976 bytes to 1303674...
+Writing at 0x00010000... (1 %)
+Writing at 0x00017c0e... (2 %)
+Writing at 0x00020f9a... (3 %)
+Writing at 0x00029164... (5 %)
+Writing at 0x00031508... (6 %)
+Writing at 0x00039342... (7 %)
+Writing at 0x00040826... (8 %)
+Writing at 0x000488a9... (10 %)
+Writing at 0x00052690... (11 %)
+Writing at 0x00059fcc... (12 %)
+Writing at 0x00061b8f... (13 %)
+Writing at 0x0006bbd9... (15 %)
+Writing at 0x00073b31... (16 %)
+Writing at 0x0007b4f4... (17 %)
+Writing at 0x000833d0... (18 %)
+Writing at 0x0008b612... (20 %)
+Writing at 0x000934db... (21 %)
+Writing at 0x0009cc20... (22 %)
+Writing at 0x000a4d43... (23 %)
+Writing at 0x000acf3e... (25 %)
+Writing at 0x000b4dbd... (26 %)
+Writing at 0x000bc68c... (27 %)
+Writing at 0x000c45c7... (28 %)
+Writing at 0x000ffd2b... (30 %)
+Writing at 0x0010aa6c... (31 %)
+Writing at 0x00111c8b... (32 %)
+Writing at 0x0011df13... (33 %)
+Writing at 0x0012c1f1... (35 %)
+Writing at 0x0013d6f1... (36 %)
+Writing at 0x00144eec... (37 %)
+Writing at 0x0014a0e4... (38 %)
+Writing at 0x0014f9a7... (40 %)
+Writing at 0x001553de... (41 %)
+Writing at 0x0015ac26... (42 %)
+Writing at 0x0016054b... (43 %)
+Writing at 0x00165dda... (45 %)
+Writing at 0x0016b3fa... (46 %)
+Writing at 0x001709d9... (47 %)
+Writing at 0x00175796... (48 %)
+Writing at 0x0017a974... (50 %)
+Writing at 0x0017f938... (51 %)
+Writing at 0x00184e43... (52 %)
+Writing at 0x0018a416... (53 %)
+Writing at 0x0018fd12... (55 %)
+Writing at 0x001956c7... (56 %)
+Writing at 0x0019a604... (57 %)
+Writing at 0x0019f718... (58 %)
+Writing at 0x001a465d... (60 %)
+Writing at 0x001a9782... (61 %)
+Writing at 0x001ae771... (62 %)
+Writing at 0x001b4386... (63 %)
+Writing at 0x001b9885... (65 %)
+Writing at 0x001bf272... (66 %)
+Writing at 0x001c50e4... (67 %)
+Writing at 0x001cafb4... (68 %)
+Writing at 0x001d13a9... (70 %)
+Writing at 0x001d6fd8... (71 %)
+Writing at 0x001dc720... (72 %)
+Writing at 0x001e1d01... (73 %)
+Writing at 0x001e6e4d... (75 %)
+Writing at 0x001ec2ea... (76 %)
+Writing at 0x001f14e2... (77 %)
+Writing at 0x001f75a5... (78 %)
+Writing at 0x001fcf0f... (80 %)
+Writing at 0x00202d2e... (81 %)
+Writing at 0x0020823b... (82 %)
+Writing at 0x0020ddb4... (83 %)
+Writing at 0x00213c95... (85 %)
+Writing at 0x0021a7b9... (86 %)
+Writing at 0x0022011d... (87 %)
+Writing at 0x002255dd... (88 %)
+Writing at 0x0022a890... (90 %)
+Writing at 0x0022ff46... (91 %)
+Writing at 0x00238eab... (92 %)
+Writing at 0x0023fc87... (93 %)
+Writing at 0x00247184... (95 %)
+Writing at 0x002519dc... (96 %)
+Writing at 0x0025766a... (97 %)
+Writing at 0x0025d038... (98 %)
+Writing at 0x00262820... (100 %)
+Wrote 2448976 bytes (1303674 compressed) at 0x00010000 in 29.2 seconds (effective 670.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+========================= [SUCCESS] Took 41.71 seconds =========================
+
+Environment               Status    Duration
+------------------------  --------  ------------
+pixelpad_s3_refresh_safe  SUCCESS   00:00:41.709
+========================= 1 succeeded in 00:00:41.709 =========================

@@ -1,0 +1,9 @@
+{"att_payload_bytes": 20}
+{"completed": 10, "n": 10, "median_ms": 2065.107, "p95_ms": 2199.694, "max_ms": 2199.694}
+{
+  "mode": "image",
+  "n": 10,
+  "median_ms": 2065.107,
+  "p95_ms": 2199.694,
+  "max_ms": 2199.694
+}

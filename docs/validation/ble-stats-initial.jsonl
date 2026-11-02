@@ -1,0 +1,17 @@
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 1, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62912, "min_heap": 61616, "stack_free": [2276, 8944, 5732, 5052]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 2, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62636, "min_heap": 60564, "stack_free": [2276, 8944, 5732, 3500]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 3, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62636, "min_heap": 60560, "stack_free": [2276, 8944, 5732, 3500]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 4, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62636, "min_heap": 60560, "stack_free": [2276, 8716, 5732, 3500]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 5, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62636, "min_heap": 60560, "stack_free": [2276, 8716, 5732, 3452]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 6, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62636, "min_heap": 60560, "stack_free": [2276, 8716, 5524, 3452]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 7, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62636, "min_heap": 60560, "stack_free": [2276, 8716, 5524, 3452]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 8, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62636, "min_heap": 60560, "stack_free": [2276, 8716, 5524, 3452]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 9, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62636, "min_heap": 60560, "stack_free": [2276, 8716, 5524, 3452]}
+{"status": "ok", "cmd": "rtos_stats", "input_events": 3, "commands": 10, "input_max_us": 4995, "command_max_us": 1531, "render_max_us": 5069, "rx_overflows": 0, "tx_drops": 0, "input_drops": 0, "command_drops": 0, "heap": 62636, "min_heap": 60560, "stack_free": [2276, 8716, 5492, 3452]}
+{
+  "mode": "stats",
+  "n": 10,
+  "median_ms": 85.306,
+  "p95_ms": 135.554,
+  "max_ms": 135.554
+}

@@ -1,0 +1,22 @@
+{
+  "pixelpad_s3_rtos": {
+    "bytes": 2440432,
+    "sha256": "96434873b7268944dc50305692685c3ec4a38af6b2d52c9a00af40e92b483a85"
+  },
+  "pixelpad_s3_refresh_fast": {
+    "bytes": 2440480,
+    "sha256": "69169f4f9ab882cdf0985688e7dfebc7bdf924d9785ce72f09009550daa35b84"
+  },
+  "pixelpad_s3_refresh_safe": {
+    "bytes": 2440480,
+    "sha256": "302daf0ee394894e175ab7e7396e86f93463a5b366ae1078750584c8df7954bd"
+  },
+  "pixelpad_s3_color": {
+    "bytes": 2440256,
+    "sha256": "96027b1f07b93634e76c653ec8bb95205bd426284abbb3e1c5974d948353ad24"
+  },
+  "pixelpad_s3_ble_only": {
+    "bytes": 2372128,
+    "sha256": "807a64bb3648d23b774d0dca405712ad713f8077a4f371a824f3879b7f944e96"
+  }
+}

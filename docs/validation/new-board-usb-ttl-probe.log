@@ -1,0 +1,15 @@
+
+USB-TTL probe 2026-09-14T05:16:28.746118+08:00
+Disabled HUPCL, released DTR/RTS, retrying default ROM reset at 115200.
+esptool.py v4.11.0
+Serial port /dev/ttyUSB0
+Connecting.............
+
+A fatal error occurred: Failed to connect to ESP32-S3: Serial data stream stopped: Possible serial noise or corruption.
+For troubleshooting steps visit: https://docs.espressif.com/projects/esptool/en/latest/troubleshooting.html
+
+Exit code: 2
+Passive UART bytes in 5 seconds after release: 1
+Hex prefix: 00
+Text prefix: '\x00'
+Restored prior terminal settings and closed serial port.

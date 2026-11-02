@@ -1,0 +1,25 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+E (432) esp_core_dump_flash: No core dump partition found!
+E (432) esp_core_dump_flash: No core dump partition found!
+HUB75: clock=10000000 Hz, depth=4 bits/channel, double_buffer=1, scan_est=672 Hz
+WiFi OTA: http://192.168.4.1/update
+正在初始化 BLE UART 服务...
+[  2501][E][Preferences.cpp:50] begin(): nvs_open failed: NOT_FOUND
+Aliyun BLE OTA service mounted (state-machine, async write)
+  Version: 3.2.4 (0x00030204)
+  Product key: demo_product_key
+✅ BLE 服务启动成功！
+📱 请用 nRF Connect 连接设备 'PixelPad-XXXX'
+   → 启用 TX 特征值的 Notify
+   → 向 RX 特征值发送数据（带 \n 结尾）
+[  2760][E][vfs_api.cpp:105] open(): /littlefs/standby.bin does not exist, no permits for creation
+✅ App 动画管理器已启动
+PixelPad RTOS 3.2.4: ESP-IDF v4.4.7-dirty, heap=71328, PSRAM=8315351

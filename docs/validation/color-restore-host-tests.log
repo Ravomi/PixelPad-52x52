@@ -1,0 +1,4 @@
+PASS pixel_frame
+PASS protocol
+PASS brightness
+PASS life_redraw
